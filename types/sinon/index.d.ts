@@ -1020,6 +1020,8 @@ declare namespace Sinon {
          */
         respond(): void;
         restore(): void;
+        
+        xhr: SinonFakeXMLHttpRequest;
     }
 
     interface SinonFakeServerOptions {
